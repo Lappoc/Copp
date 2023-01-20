@@ -1,0 +1,52 @@
+.search 
+  display: flex
+  align-items: center
+  justify-content: space-between
+  text-align: center
+
+
+.search__input 
+  font-family: inherit
+  font-size: inherit
+  background-color: #ffffff
+  border: none
+  color: #646464
+  padding: 0.7rem 1rem
+  border-radius: 10px
+  width: 30em
+  transition: all ease-in-out .5s
+  margin-right: -2.5rem
+  box-shadow: -4px 16px 40px rgba(0, 0, 0, 0.07)
+
+.search__input:hover, .search__input:focus 
+  box-shadow: -4px 16px 40px rgba(109, 141, 173, 0.573) 
+
+
+.search__input:focus 
+  outline: none
+  background-color: #ffffff
+
+
+.search__input::-webkit-input-placeholder 
+  font-weight: 100
+  color: #ccc
+
+
+.search__input:focus + .search__button 
+  background-color: #ffffff
+
+
+.search__button 
+  border: none
+  background-color: #ffffff
+  margin-top: .1em
+
+
+.search__button:hover 
+  cursor: pointer
+
+
+.search__icon 
+  height: 2em
+  width: 2em
+  fill: #b4b4b4
