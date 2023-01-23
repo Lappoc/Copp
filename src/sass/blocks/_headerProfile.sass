@@ -1,0 +1,55 @@
+.btn 
+    box-sizing: border-box
+
+    border: 1px solid #D7D7D7
+
+    position: relative
+    font-size: 17px
+    text-transform: uppercase
+    text-decoration: none
+    width: 2.5vw
+    height: 2.5vw
+    // padding: .5em 1em
+    display: inline-block
+    border-radius: .7em
+    transition: all .2s
+    background-color: white
+
+    &:hover 
+        transform: translateY(-3px)
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+        cursor: pointer
+        
+
+    &:active 
+        transform: translateY(-1px)
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+        
+
+    &::after 
+        content: ""
+        display: inline-block
+        height: 100%
+        width: 100%
+        border-radius: 100px
+        position: absolute
+        top: 0
+        left: 0
+        z-index: -1
+        transition: all .4s
+        
+
+    &::after 
+        background-color: #ffffff
+        
+
+    &:hover::after 
+        transform: scaleX(1.4) scaleY(1.6)
+        opacity: 0
+
+.back
+    width: .5vw
+
+.edit
+    width: .9vw
+    
