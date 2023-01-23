@@ -2,9 +2,9 @@ import Header from "./Header";
 import Navigation from "./Navigation";
 import Products  from "./Products"
 
-function Page2() {
+function SearchForm() {
     return (
-      <div className="Page2">
+      <div className="SearchForm">
         <Header/>
         <Navigation/>
         <Products/>
@@ -12,4 +12,4 @@ function Page2() {
     );
   }
   
-  export default Page2;
+  export default SearchForm;

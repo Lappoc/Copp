@@ -1,8 +1,11 @@
-import Page2 from "../page2/Page2";
+import SearchForm from "../searchForm/Search-Form"
+import Profile from '../profile/Profile'
+
 function App() {
   return (
     <div className="App">
-      <Page2/>
+      {/* <SearchForm/> */}
+      <Profile/>
     </div>
   );
 }
