@@ -1,0 +1,37 @@
+.nav
+    margin-top: 70px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__list
+        display: flex
+        list-style-type: none
+        column-gap: 43px
+        
+    &__item
+        font-weight: 500
+        font-size: 28px
+        position: relative
+        a
+            text-decoration: none
+            color: $dark
+        &_active
+            font-weight: 700
+            &::after
+                content:""
+                position: absolute
+                height: 2px
+                width: 32px
+                background: $purple
+                bottom: -10px
+                left: 0
+    &__icons
+        display: flex
+        list-style-type: none
+        column-gap: 29px
+    &__icon
+        img
+            height: 40px
+            width: 40px
+
